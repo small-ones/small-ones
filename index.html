@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Small Ones</title>
+<meta name="author" content="Small Ones">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Small Ones are small one-of-a-kind works of art">
+<meta name="keywords" content="art, small, small ones, ones, small art, Charleston">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+<ul class="nav">
+    <li class="name"><a href="/buy/">Buy</a></li>
+    <li class="job"><a href="https://www.smallones.co"><img alt="Small Ones" style="width: 80px;" src="../img/stamp.svg"/></a></li>
+    <li class="contact"><a href="mailto:hi@smallones.co">Hi?</a></li>
+ </ul>
+
+
+<div class="container work">
+<!--Intro Sentence -->
+<div class="row">
+  <div class="twelve column bigboy">
+    An archive of small format, original work.
+  </div>
+</div>
+
+
+<!--Row 1 -->
+  <div class="row">
+    <div class="six offset-by-three column">
+      <img class="project" src="img/ef-1.png" id="me14" onclick="shownextpic14()"/>
+      <div class="project-text-container">
+        <div class="project-text-one">
+          <a href="https://eastfork.com/" target="_blank">East Fork<img class="opennew" src="img/opennew.svg"></a><span class="gray">Web Design, Illustration</span>
+        </div>
+        <div class="project-text-two gray">
+          2018
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Row 2 -->
+  <div class="row">
+    <div class="five column bottom3">
+      <img class="project" src="img/co1.png" id="me6" onclick="shownextpic6()"/>
+      <div class="project-text-container">
+        <div class="project-text-one">
+          <a href="https://pretendstore.co/products/font-coplestons" target="_blank">Coplestons<img class="opennew" src="img/opennew.svg"></a><span class="gray">Type Design</span>
+        </div>
+        <div class="project-text-two gray">
+          2015
+        </div>
+      </div>
+    </div>
+
+    <div class="seven column">
+      <img class="project" src="img/sb1.png" id="me7" onclick="shownextpic7()"/>
+      <div class="project-text-container">
+        <div class="project-text-one">
+          <a href="http://seriousbuildings.com/" target="_blank">Serious Buildings<img class="opennew" src="img/opennew.svg"></a><span class="gray">Branding, Web Design</span>
+        </div>
+        <div class="project-text-two gray">
+          2018
+        </div>
+      </div>
+
+      <div style="width:50px; padding-top:50px; margin: 0 auto;">
+        <a href="http://kare.com" target="_blank"><img src="img/like2.png"/></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div> <!-- END work container-->
+
+
+
+<!-- About
+<div class="about" id="profile">
+  <div class="container">
+
+    <div class="row profile-row">
+      <ul class="second-nav">
+          <li class=""></li>
+          <li class="job"><img style="width: 100px;" src="img/stamp.svg"/></li>
+          <li class=""></li>
+       </ul>
+    </div>
+
+    <div class="row">
+      <div class="six offset-by-three column profile">
+        Small Ones is small offering of small one-of-a-kind original work, generally around 4x6" or so.
+        <br><br>
+        <a href="mailto:hi@smallones.co">Say Hi</a>
+        <br><br>
+        <br><br>
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script>
+// img
+var counter1=0;
+var me1 = new Array();
+me1[0] = "img/lo3.png";
+me1[1] = "img/lo4.png";
+me1[2] = "img/lo5.png";
+function shownextpic1()
+{document.getElementById("me1").src = me1[counter1++];
+if(counter1==13) counter1=0;}
+</script>
+
+<script>
+$(document).ready(function(){
+   $(".row").removeClass("offset");
+});
+</script>
+
+</body>
+</html>
