@@ -6,10 +6,6 @@
   src: url("suisse.woff2") format("woff2"),
        url("suisse.woff") format("woff");}
 
-.about {
-  background-color: #009cf7;
-  padding-top: 2em;}
-
 .container {
   position: relative;
   width: 100%;
@@ -21,7 +17,10 @@
 .column {
   width: 100%;
   float: left;
-  box-sizing: border-box; }
+  box-sizing: border-box;}
+
+.work {
+  margin-bottom: 2em;}
 
 .project-text-container {
   position: relative;
@@ -44,9 +43,11 @@
 @media (min-width: 550px) {
 
   .column {
-    margin-left: 4%; }
+    margin-left: 4%;}
   .column:first-child {
     margin-left: 0; }
+  .work {
+    margin-bottom: 0em;}
 
   .one.column                    { width: 4.66666666667%; }
   .two.column                    { width: 13.3333333333%; }
@@ -71,7 +72,7 @@
 
 html { font-size: 69.5%; }
 body {
-  font-size: 2em;
+  font-size: 1.75em;
   line-height: 1.2;
   letter-spacing: -0.001em;
   font-weight: 400;
@@ -98,6 +99,7 @@ img {
   .small {font-size: 1.25rem;}
 }
 
+.small {font-size: 1rem;}
 .center {margin: 0 auto; text-align: center !important;}
 .gray {color: gray;}
 .sold {color: red;}
