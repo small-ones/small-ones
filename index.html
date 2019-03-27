@@ -14,7 +14,7 @@
 <body>
 <ul class="nav">
 <li class="name"><a href="/buy/">Buy</a></li>
-<li class="job"><a href="https://www.smallones.co"><img alt="Small Ones" style="width: 80px;" src="img/owlman.png"/></a></li>
+<li class="job"><a href="https://small-ones.github.io"><img alt="Gunter, the Small Ones owl" style="width: 80px;" src="img/owlman.png"/></a></li>
 <li class="contact"><a href="#sup">Sup</a></li>
 </ul>
 
@@ -23,14 +23,14 @@
 
 <div id="intro-image" class="row">
 <div class="ten offset-by-one column">
-<img class="project" src="img/frame2.jpg" id="me1" onclick="shownextpic1()"/>
+  <img src="img/frame2.jpg"/>
 </div>
 </div>
 
 <div id="works-on-paper" class="row top100">
 <div class="twelve column center">
 Works on Paper<br>
-<span class="small">Acrylic on Fabriano paper</span>
+<span class="small">Acrylic ink on archival Canson paper - deckled edge</span>
 </div>
 </div>
 
@@ -40,10 +40,10 @@ Works on Paper<br>
 <img src="img/yoga3.jpg" />
 <div class="project-text-container">
 <div class="project-text-one">
-Bend Two, $8 <span class="sold">Sold</span>
+Pro Bend - 4x6"
 </div>
 <div class="project-text-two gray">
-4x6"
+$8 <span class="sold">Sold</span>
 </div>
 </div>
 </div>
@@ -52,10 +52,10 @@ Bend Two, $8 <span class="sold">Sold</span>
 <img src="img/yoga3.jpg"/>
 <div class="project-text-container">
 <div class="project-text-one">
-Bend Two
+Pro Bend - 4x6"
 </div>
 <div class="project-text-two gray">
-4x6"
+$8 <span class="sold">Sold</span>
 </div>
 </div>
 </div>
@@ -63,12 +63,12 @@ Bend Two
 <div id="paper-item-3" class="four column">
 <img src="img/yoga3.jpg" />
 <div class="project-text-container">
-<div class="project-text-one">
-Bend Two <span class="sold">Sold</span>
-</div>
-<div class="project-text-two gray">
-4x6"
-</div>
+  <div class="project-text-one">
+  Pro Bend - 4x6"
+  </div>
+  <div class="project-text-two gray">
+  $8
+  </div>
 </div>
 </div>
 
@@ -85,6 +85,7 @@ I started this as a way make and sell artist prints without all the greasy heavy
 <br><br>
 We're starting Small but we're going small. You thought I was going to say big there didn't you. Hoohoohoo.
 <br><br>
+<div id="small-ones-stamp" class="center"><img class="center" alt="Small Ones" style="width: 60px;" src="img/stamp.svg"/></div>
 </div>
 </div>
 
@@ -92,24 +93,11 @@ We're starting Small but we're going small. You thought I was going to say big t
 </div> <!-- END container-->
 
 <!-- Footer -->
-<ul class="nav small">
+<ul id="footer" class="nav small">
 <li class="name"></li>
 <li class="job">©2019 Small Ones</li>
 <li class="contact"></li>
 </ul>
 
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-
-<script>
-// img
-var counter1=0;
-var me1 = new Array();
-me1[0] = "img/lo3.png";
-me1[1] = "img/lo4.png";
-me1[2] = "img/lo5.png";
-function shownextpic1()
-{document.getElementById("me1").src = me1[counter1++];
-if(counter1==13) counter1=0;}
-</script>
 </body>
 </html>
