@@ -111,6 +111,7 @@ img {
 .center {margin: 0 auto; text-align: center !important;}
 .gray {color: gray;}
 .sold {color: red;}
+.current {color: gray;}
 
 a {
   color: inherit;
@@ -135,16 +136,19 @@ ul {
 
 .nav {
   display: flex;
-  width: 90vw;
+  width: 95vw;
   height: 150px;
-  margin-top: 8px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;}
 
-.job {
+.middle {
   margin-left: auto;
   margin-right: auto;}
+
+.right a:first-child {
+  margin-right: 40px; }
+
 
 .container:after,
 .row:after {
